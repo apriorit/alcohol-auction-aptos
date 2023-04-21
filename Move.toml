@@ -1,0 +1,23 @@
+[package]
+name = 'alcohol-auction'
+version = '1.0.0'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core/'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-token'
+
+[dependencies.AptosStdlib]
+git = 'https://github.com/aptos-labs/aptos-core/'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-stdlib'
+
+[addresses]
+source_addr = '_'
+# resource account
+alcohol_auction = '_'
